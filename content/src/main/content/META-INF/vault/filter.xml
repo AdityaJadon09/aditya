@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/demo"/>
+    <filter root="/etc/scaffolding/Demo"/>
+    <filter root="/apps/commerce/gui/content/products/importproductswizard/importers/Demo"/>
+    <filter root="/etc/tags/demo"/>
+    <filter root="/etc/tags/assets"/>
+</workspaceFilter>
