@@ -51,9 +51,9 @@ public class PagelistingServiceImpl implements PageListing {
 		queryMap.put("path", "/content");
 		queryMap.put("type","cq:page");
 		queryMap.put("tagid.property", "jcr:content/cq:tags");
+		int index=1;
 		for(String tagval : tag)
 		{
-			int index=1;
 			queryMap.put("tagid."+index+"_value",tag);
 			index++;
 		}
