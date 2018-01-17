@@ -53,7 +53,7 @@ public class PageListingModel {
 	
 	@PostConstruct
 	public void init() {
-		String tag = resource.adaptTo(ValueMap.class).get("tag",String.class);
+		String[] tag = resource.adaptTo(ValueMap.class).get("tag",String[].class);
 		this.pagepathlist=PageListingService.searchPage(request,tag);
 	}
 	

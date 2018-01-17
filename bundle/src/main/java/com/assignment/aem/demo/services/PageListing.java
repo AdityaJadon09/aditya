@@ -6,6 +6,8 @@ import org.apache.sling.api.SlingHttpServletRequest;
 
 public interface PageListing {
 	
-	public List<String> searchPage(SlingHttpServletRequest request,String tag);
+	String[] getBannedWords();
+	
+	public List<String> searchPage(SlingHttpServletRequest request,String[] tag);
 
 }
