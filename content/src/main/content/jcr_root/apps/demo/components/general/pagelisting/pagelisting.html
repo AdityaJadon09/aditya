@@ -1,0 +1,16 @@
+<!--/*  name: Product Header Image 
+        description: Product Header Image component
+        group: Demo Product
+*/-->
+
+
+
+<div data-sly-test="${(wcmmode.edit || wcmmode.design)}" data-emptytext="Pagelisting Component" class="cq-placeholder"></div>
+
+
+<sly data-sly-use.pagelisting="${'com.assignment.aem.demo.model.PageListingModel'}"/>
+
+
+ <ul data-sly-list="${pagelisting.pagepathlist}">
+    <li>${item}</li>
+</ul>
