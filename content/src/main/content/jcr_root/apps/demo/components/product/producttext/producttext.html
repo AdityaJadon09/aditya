@@ -1,0 +1,18 @@
+<!--/*  name: Product Name 
+        description: Product Name component .
+        group: Demo Product
+*/-->
+
+
+
+<div data-sly-test="${(wcmmode.edit || wcmmode.design)}" data-emptytext="Product Text Component" class="cq-placeholder"></div>
+
+<sly data-sly-use.product="${'com.assignment.aem.demo.model.ProductComponentModel'}"/>
+<div data-sly-test="${product.productText}" class="producttext">
+			${product.productText @context='html'}
+		</div>
+
+
+
+
+
